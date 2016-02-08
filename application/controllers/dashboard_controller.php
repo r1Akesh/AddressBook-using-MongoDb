@@ -155,8 +155,8 @@ class Dashboard_Controller extends CI_Controller
             'protocol' => 'smtp',
             'smtp_host' => 'ssl://smtp.googlemail.com',
             'smtp_port' => 465,
-            'smtp_user' => 'rakesh.roushan259@gmail.com',
-            'smtp_pass' => 'toocooltoocozy'
+            'smtp_user' => 'uremail',
+            'smtp_pass' => 'urpassword'
         );
         $this->load->library('email', $config);
         $this->email->set_newline("\r\n");
