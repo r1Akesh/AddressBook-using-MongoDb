@@ -160,7 +160,7 @@ class Dashboard_Controller extends CI_Controller
         );
         $this->load->library('email', $config);
         $this->email->set_newline("\r\n");
-        $this->email->from('rakesh.roushan259@gmail.com');
+        $this->email->from('uremail');
         $this->email->to($to);
         $this->email->message($message);
         if ($this->email->send()) {
